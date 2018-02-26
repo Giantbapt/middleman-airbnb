@@ -42,13 +42,14 @@
   z-index: 2;
   background: black;
   opacity: 0;
+  &:hover {
+    opacity: 0.1;
+  }
 }
-.card-link:hover {
-  opacity: 0.1;
-}
+
 
 p {
   text-align: center;
-  color: #616668;
+  color: white;
   margin: 15px;
 }
